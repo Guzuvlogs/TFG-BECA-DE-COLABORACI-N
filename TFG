@@ -1,0 +1,13 @@
+git clone h.ttps://github.com/Guzuvlogs/TFG-BECA-DE-COLABORACI-N.git
+cd mi-repositorio
+mkdir TFG
+touch TFG/.gitkeep
+git add TFG/.gitkeep
+git commit -m "Creo la carpeta TFG"
+git push origin main
+cp -r ~/Desktop/Bibliografía ./TFG/
+git add TFG/Bibliografía
+git commit -m "Añade la carpeta Bibliografía dentro de TFG"
+git push origin main
+
+
